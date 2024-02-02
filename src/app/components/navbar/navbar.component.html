@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-md mb-3">
+  <div class="container-fluid">
+    <nav>
+      <div class="brand">
+        {{brandName}}
+      </div>
+    </nav>
+    <!-- Step 3: Toggle the value of the property when the toggler button is clicked. -->
+    @if (!isHome) {
+    <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">&#9776;</button>
+    <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-md-auto">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="'/home'" (click)="isMenuCollapsed = true" routerLinkActive="active-link"
+            ariaCurrentWhenActive="page">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="'/about'" (click)="isMenuCollapsed = true" routerLinkActive="active-link"
+            ariaCurrentWhenActive="page">About</a>
+        </li>
+      </ul>
+    </div>
+    }
+  </div>
+</nav>

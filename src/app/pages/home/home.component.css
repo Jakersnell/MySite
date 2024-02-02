@@ -1,0 +1,39 @@
+.row {
+  width: 100%;
+}
+
+.home-square-button img {
+  height: 100%;
+}
+
+.home-square-button {
+  transition: 0.06s;
+  transition-timing-function: ease-in;
+  position: relative;
+  top: 0;
+  background-color: white;
+  height: 40vh;
+  width: 40vh;
+  border-radius: 2rem;
+  box-shadow: 0 0.5vh 3vh 0.2vh rgba(1, 1, 1, 0.4);
+}
+
+.home-square-button:hover {
+  cursor: pointer;
+  position: relative;
+  transition: 0.1s;
+  transition-timing-function: ease-out;
+  top: -2.5vh;
+  height: 45vh;
+  width: 45vh;
+  box-shadow: 0 2vh 5vh 0.4vh rgba(1, 1, 1, 0.5);
+}
+
+#github-logo {
+  margin-block: auto;
+  height: 90%;
+}
+
+#headshot-outline {
+  margin-top: -1.3rem;
+}

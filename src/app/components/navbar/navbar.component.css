@@ -1,0 +1,17 @@
+.brand {
+  margin-top: 1.3rem;
+  margin-left: 2rem;
+  font-size: 3rem;
+  border-bottom: 0.2rem solid #1C97D2;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: end;
+  margin-right: 1.4rem;
+  font-size: 1.4rem;
+}
+
+.active-link {
+  display: none;
+}
