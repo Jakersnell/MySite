@@ -2,6 +2,11 @@
   width: 100%;
 }
 
+#home-badges {
+  margin-top: 13vh;
+  margin-inline: 8vw;
+}
+
 .home-square-button img {
   height: 100%;
 }
