@@ -1,3 +1,20 @@
+
+
+h3 {
+  float: left;
+}
+
+p {
+  line-height: 200%;
+  text-align: justify;
+  font-size: 25px;
+}
+
+.all {
+  padding-block: 2vw;
+  padding-inline: 5vw;
+}
+
 .row {
   width: 100%;
 }
@@ -12,6 +29,9 @@
 }
 
 .home-square-button {
+  margin-right: 3vw;
+  margin-bottom: 2vh;
+  float: left;
   transition: 0.06s;
   transition-timing-function: ease-in;
   position: relative;
@@ -56,7 +76,7 @@
   font-size: large;
 
   .contact-animate {
-    color: #1C97D2;
+    color: #1c97d2;
     transition: 0.3s;
     margin-top: 0.1vh;
     height: 0.2vh;
@@ -67,7 +87,7 @@
 
 .contact-animate {
   opacity: 100%;
-  color: #1C97D2;
+  color: #1c97d2;
   margin: 0;
   width: 0;
   height: 0;
