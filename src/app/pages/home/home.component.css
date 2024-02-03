@@ -19,7 +19,7 @@
   background-color: white;
   height: 40vh;
   width: 40vh;
-  border-radius: 2rem;
+  border-radius: 3vh;
   box-shadow: 0 0.5vh 3vh 0.2vh rgba(1, 1, 1, 0.4);
 }
 
@@ -40,5 +40,5 @@
 }
 
 #headshot-outline {
-  margin-top: -1.3rem;
+  margin-top: -6%;
 }

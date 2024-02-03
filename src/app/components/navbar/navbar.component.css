@@ -1,15 +1,20 @@
 .brand {
-  margin-top: 1.3rem;
-  margin-left: 2rem;
-  font-size: 3rem;
-  border-bottom: 0.2rem solid #1C97D2;
+  cursor: pointer;
+  margin-top: 2vh;
+  margin-left: 4vh;
+  font-size: 6vh;
+  border-bottom: 0.5vh solid #1C97D2;
 }
 
 .nav-item {
   display: flex;
   justify-content: end;
-  margin-right: 1.4rem;
-  font-size: 1.4rem;
+  margin-right: 5vh;
+  font-size: 3vh;
+}
+
+.nav-link {
+  color: rgb(208, 208, 208);
 }
 
 .active-link {

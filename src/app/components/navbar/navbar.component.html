@@ -1,7 +1,7 @@
-<nav class="navbar navbar-expand-md mb-3">
+<nav class="navbar navbar-expand-xl mb-3">
   <div class="container-fluid">
     <nav>
-      <div class="brand">
+      <div class="brand" [routerLink]="'/home'">
         {{brandName}}
       </div>
     </nav>
@@ -9,14 +9,17 @@
     @if (!isHome) {
     <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">&#9776;</button>
     <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
-      <ul class="navbar-nav ms-md-auto">
+      <ul class="navbar-nav ms-xl-auto">
         <li class="nav-item">
           <a class="nav-link" [routerLink]="'/home'" (click)="isMenuCollapsed = true" routerLinkActive="active-link"
             ariaCurrentWhenActive="page">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLink]="'/about'" (click)="isMenuCollapsed = true" routerLinkActive="active-link"
-            ariaCurrentWhenActive="page">About</a>
+          <a class="nav-link" (click)="isMenuCollapsed = true" href="https://github.com/Jakersnell">Github</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="isMenuCollapsed = true"
+            href="https://www.linkedin.com/in/jake-snell-016684242/">LinkedIn</a>
         </li>
       </ul>
     </div>

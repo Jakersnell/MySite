@@ -1,0 +1,74 @@
+.row {
+  width: 100%;
+}
+
+#home-badges {
+  margin-top: 13vh;
+  margin-inline: 8vw;
+}
+
+.home-square-button img {
+  height: 100%;
+}
+
+.home-square-button {
+  transition: 0.06s;
+  transition-timing-function: ease-in;
+  position: relative;
+  top: 0;
+  background-color: white;
+  height: 40vh;
+  width: 40vh;
+  border-radius: 3vh;
+  box-shadow: 0 0.5vh 3vh 0.2vh rgba(1, 1, 1, 0.4);
+}
+
+.home-square-button:hover {
+  position: relative;
+  transition: 0.1s;
+  transition-timing-function: ease-out;
+  top: -2.5vh;
+  height: 45vh;
+  width: 45vh;
+  box-shadow: 0 2vh 5vh 0.4vh rgba(1, 1, 1, 0.5);
+}
+
+#github-logo {
+  margin-block: auto;
+  height: 90%;
+}
+
+#headshot-outline {
+  margin-top: -6%;
+}
+
+.contact-details a {
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+.contact-details div {
+  width: fit-content;
+}
+
+.contact-details div:hover {
+  transition: 0.1s;
+  font-size: large;
+
+  .contact-animate {
+    color: #1C97D2;
+    transition: 0.3s;
+    margin-top: 0.1vh;
+    height: 0.2vh;
+    width: 100%;
+  }
+  margin-bottom: 0.2vh;
+}
+
+.contact-animate {
+  opacity: 100%;
+  color: #1C97D2;
+  margin: 0;
+  width: 0;
+  height: 0;
+}

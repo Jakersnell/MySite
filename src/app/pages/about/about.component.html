@@ -1,1 +1,72 @@
-<p>about works!</p>
+<div class="mt-5 row d-flex justify-content-center">
+  <div class="col-12 col-sm-1"></div>
+  <div class="col-12 col-sm-3">
+    <div class="home-square-button d-flex justify-content-center mt-5">
+      <img id="headshot-outline" src="assets/img/headshot.png"
+        alt="Button with an outline of a picture of me. This goes to my about page." [routerLink]="'/about'">
+    </div>
+    <div class="contact-details px-2">
+      <div class="email mt-4">
+        <a href="mailto: {{env.email}}">{{env.email}}</a>
+        <hr class="contact-animate">
+      </div>
+      <div class="phone mt-2">
+        <a href="tel: {{env.phone}}">{{env.phone|phone}}</a>
+        <hr class="contact-animate">
+      </div>
+    </div>
+  </div>
+  <div class="col-0 col-sm-1"></div>
+  <div class="col-12 col-sm-6 px-5 px-lg-0 mt-5 mt-sm-0">
+    <div class="about-header">
+      <h3>Hi! My Name Is Jacob Snell!</h3>
+    </div>
+    <hr>
+    <div class="about-body">
+      <p>
+        I am a Java full-stack bootcamp graduate
+        and fluent in Rust (my favorite), Java, Python, JavaScript, and SQL.
+      </p>
+      <br>
+      <p>
+        I have also used GLSL (OpenGL Shader Language), ARM64 Apple Assembly (apple ARM64 is a little
+        different from the standard), and the C language.
+      </p>
+      <div class="d-none d-xl-block">
+        <br>
+        <p>
+          I am passionate about clean architecture practices, compiler design, operating system kernel design, and high
+          performance server engineering just to name a few.
+        </p>
+        <br>
+        <p>
+          My goals for the future include pursuing a degree in computer
+          science, and to design my own programming language.
+        </p>
+        <br>
+        <p>
+          I look forward to inquiries and discussion.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-sm-1"></div>
+</div>
+<div class="row d-xl-none">
+    <div class="second-body p-5 p-xl-0">
+      <br>
+      <p>
+        I am passionate about clean architecture practices, compiler design, operating system kernel design, and high
+        performance server engineering just to name a few.
+      </p>
+      <br>
+      <p>
+        My goals for the future include pursuing a degree in computer
+        science, and to design my own programming language.
+      </p>
+      <br>
+      <p>
+        I look forward to inquiries and discussion.
+      </p>
+    </div>
+</div>
