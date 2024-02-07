@@ -1,13 +1,21 @@
+@media (min-width: 576px) {
+  h3 {
+    float: left;
+  }
 
+  p {
+    text-align: justify;
+  }
 
-h3 {
-  float: left;
+  .home-square-button {
+    float: left;
+  }
+
 }
 
 p {
   line-height: 200%;
-  text-align: justify;
-  font-size: 25px;
+  font-size: 3vh;
 }
 
 .all {
@@ -31,7 +39,6 @@ p {
 .home-square-button {
   margin-right: 3vw;
   margin-bottom: 2vh;
-  float: left;
   transition: 0.06s;
   transition-timing-function: ease-in;
   position: relative;
