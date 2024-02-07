@@ -17,8 +17,8 @@
   position: relative;
   top: 0;
   background-color: white;
-  height: 40vh;
-  width: 40vh;
+  height: 35vh;
+  aspect-ratio: 1;
   border-radius: 3vh;
   box-shadow: 0 0.5vh 3vh 0.2vh rgba(1, 1, 1, 0.4);
 }
@@ -30,7 +30,6 @@
   transition-timing-function: ease-out;
   top: -2.5vh;
   height: 45vh;
-  width: 45vh;
   box-shadow: 0 2vh 5vh 0.4vh rgba(1, 1, 1, 0.5);
 }
 
@@ -41,4 +40,24 @@
 
 #headshot-outline {
   margin-top: -6%;
+}
+
+.mobile-spacer {
+  height: 5vh;
+}
+
+@media (min-width: 1200px) {
+  .mobile-spacer {
+    display: none;
+  }
+}
+
+@media (min-width: 1400px) {
+  .home-square-button {
+    height: 40vh;
+  }
+
+  .home-square-button:hover {
+    height: 45vh;
+  }
 }

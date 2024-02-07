@@ -1,9 +1,18 @@
 <div class="all">
-  <div class="profile-image mr-3">
-    <div class="home-square-button ">
-      <img id="headshot-outline" src="assets/img/headshot.png"
-        alt="Button with an outline of a picture of me. This goes to my about page." [routerLink]="'/about'">
-
+  <div class="profile-image mb-4">
+      <div class="home-square-button">
+        <img id="headshot-outline" src="assets/img/headshot.png"
+          alt="Button with an outline of a picture of me. This goes to my about page." [routerLink]="'/about'">
+      </div>
+    <div class="contact-details px-2">
+      <div class="email mt-4">
+        <a href="mailto: {{env.email}}">{{env.email}}</a>
+        <hr class="contact-animate">
+      </div>
+      <div class="phone mt-2">
+        <a href="tel: {{env.phone}}">{{env.phone|phone}}</a>
+        <hr class="contact-animate">
+      </div>
     </div>
   </div>
   <div>

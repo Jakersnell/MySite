@@ -22,7 +22,6 @@ p {
 }
 
 .home-square-button {
-  margin-right: 3vw;
   margin-bottom: 2vh;
   transition: 0.06s;
   transition-timing-function: ease-in;
@@ -85,6 +84,18 @@ p {
   height: 0;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.profile-image {
+  float: left;
+}
+
+
 @media (min-width: 576px) {
   h3 {
     float: left;
@@ -95,6 +106,7 @@ p {
   }
 
   .home-square-button {
+    margin-right: 5vh;
     float: left;
   }
 
@@ -104,10 +116,4 @@ p {
   p {
     font-size: 3vh;
   }
-}
-
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
 }
