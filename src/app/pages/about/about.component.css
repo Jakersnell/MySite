@@ -1,21 +1,6 @@
-@media (min-width: 576px) {
-  h3 {
-    float: left;
-  }
-
-  p {
-    text-align: justify;
-  }
-
-  .home-square-button {
-    float: left;
-  }
-
-}
-
 p {
   line-height: 200%;
-  font-size: 3vh;
+  font-size: 2vh;
 }
 
 .all {
@@ -98,4 +83,31 @@ p {
   margin: 0;
   width: 0;
   height: 0;
+}
+
+@media (min-width: 576px) {
+  h3 {
+    float: left;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .home-square-button {
+    float: left;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  p {
+    font-size: 3vh;
+  }
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
